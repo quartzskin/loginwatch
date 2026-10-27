@@ -234,3 +234,4 @@ Test-Case 'gui: refuses to run on an MTA thread' {
 Remove-Item -Recurse -Force $tmp
 Write-Host "`n$script:pass passed, $script:fail failed"
 if ($script:fail) { exit 1 }
+exit 0
